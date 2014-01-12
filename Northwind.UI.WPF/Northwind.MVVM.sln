@@ -9,7 +9,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Data", "..\Northw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Application", "..\Northwind.Application\Northwind.Application.csproj", "{67D11ED1-BC0D-4BCA-80CE-C66B709CF14D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.ViewModel.Tests", "..\Northwind.ViewModel.Tests\Northwind.ViewModel.Tests.csproj", "{54F9B116-E5B5-405B-9627-9B7E0E203744}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF2CA3EA-3333-43AB-833E-AA7E2BBA662F}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Northwind.MVVM.vsmdi = Northwind.MVVM.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Northwind.MVVM.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -59,6 +71,16 @@ Global
 		{67D11ED1-BC0D-4BCA-80CE-C66B709CF14D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{67D11ED1-BC0D-4BCA-80CE-C66B709CF14D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{67D11ED1-BC0D-4BCA-80CE-C66B709CF14D}.Release|x86.ActiveCfg = Release|Any CPU
+		{54F9B116-E5B5-405B-9627-9B7E0E203744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F9B116-E5B5-405B-9627-9B7E0E203744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F9B116-E5B5-405B-9627-9B7E0E203744}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{54F9B116-E5B5-405B-9627-9B7E0E203744}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{54F9B116-E5B5-405B-9627-9B7E0E203744}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{54F9B116-E5B5-405B-9627-9B7E0E203744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F9B116-E5B5-405B-9627-9B7E0E203744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F9B116-E5B5-405B-9627-9B7E0E203744}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{54F9B116-E5B5-405B-9627-9B7E0E203744}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{54F9B116-E5B5-405B-9627-9B7E0E203744}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
