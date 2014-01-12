@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Northwind.Application;
 
 namespace Northwind.ViewModel
 {
@@ -19,7 +20,7 @@ namespace Northwind.ViewModel
             get
             {
                 return _mainWindowViewModel ?? (
-                 _mainWindowViewModel = new MainWindowViewModel()
+                 _mainWindowViewModel = new MainWindowViewModel(new UIDataProvider())
                  );
             }
         }
