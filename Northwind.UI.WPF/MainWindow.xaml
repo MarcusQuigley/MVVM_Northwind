@@ -35,6 +35,12 @@
                         </TextBlock.LayoutTransform>
                     </TextBlock>
                 </Expander.Header>
+                <ListBox ItemsSource="{Binding Customers}"
+                         DisplayMemberPath="CompanyName"
+                         SelectedValuePath="CustomerID"
+                         VerticalAlignment="Top"
+                         Height="180"
+                         Width="250"/>
             </Expander>
             <TabControl Grid.Column="1" Margin="4" 
                         IsSynchronizedWithCurrentItem="True"/>
