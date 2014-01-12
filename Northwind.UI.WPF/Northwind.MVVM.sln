@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.ViewModel", "..\N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Data", "..\Northwind.Data\Northwind.Data.csproj", "{A89A1252-3F50-4F7E-ACBC-DAA46F4F7BFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Application", "Northwind.Application\Northwind.Application.csproj", "{67D11ED1-BC0D-4BCA-80CE-C66B709CF14D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Application", "..\Northwind.Application\Northwind.Application.csproj", "{67D11ED1-BC0D-4BCA-80CE-C66B709CF14D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -45,7 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Northwind.Data\Northwind.Data.csproj">
+    <ProjectReference Include="..\Northwind.Data\Northwind.Data.csproj">
       <Project>{A89A1252-3F50-4F7E-ACBC-DAA46F4F7BFF}</Project>
       <Name>Northwind.Data</Name>
     </ProjectReference>
