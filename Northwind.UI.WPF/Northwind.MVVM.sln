@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.UI.WPF", "Northwi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.ViewModel", "..\Northwind.ViewModel\Northwind.ViewModel.csproj", "{CD005BE8-B2CB-4AE1-B5ED-30F4644885AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Data", "Northwind.Data\Northwind.Data.csproj", "{F76F495A-2D30-4F03-9A57-9D9436EEEDCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{CD005BE8-B2CB-4AE1-B5ED-30F4644885AE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{CD005BE8-B2CB-4AE1-B5ED-30F4644885AE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{CD005BE8-B2CB-4AE1-B5ED-30F4644885AE}.Release|x86.ActiveCfg = Release|Any CPU
+		{F76F495A-2D30-4F03-9A57-9D9436EEEDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76F495A-2D30-4F03-9A57-9D9436EEEDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76F495A-2D30-4F03-9A57-9D9436EEEDCB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F76F495A-2D30-4F03-9A57-9D9436EEEDCB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F76F495A-2D30-4F03-9A57-9D9436EEEDCB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F76F495A-2D30-4F03-9A57-9D9436EEEDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76F495A-2D30-4F03-9A57-9D9436EEEDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76F495A-2D30-4F03-9A57-9D9436EEEDCB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F76F495A-2D30-4F03-9A57-9D9436EEEDCB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F76F495A-2D30-4F03-9A57-9D9436EEEDCB}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
