@@ -38,6 +38,9 @@
       <HintPath>..\..\MVVM_Basics\MVVM_Initial\lib\GalaSoft.MvvmLight.Extras.WPF4.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\lib\Rhino.Mocks.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -51,7 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="MainWindowViewModelTests.cs" />
+    <Compile Include="MainWindowViewModelTestsWithoutRhino.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Northwind.Application\Northwind.Application.csproj">
