@@ -27,8 +27,6 @@ namespace Northwind.ViewModel.Tests
             CollectionAssert.AreEquivalent(
                (List<Customer>)  expected,
                 (List<Customer>)target.Customers);
-
-
          }
 
         private IList<Customer> GetCustomers()
