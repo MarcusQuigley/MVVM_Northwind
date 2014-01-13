@@ -56,6 +56,12 @@ namespace Northwind.ViewModel.Tests
             {
                 return Customers;
             }
+
+
+            public Customer GetCustomer(string customerID)
+            {
+                throw new NotImplementedException();
+            }
         }
 
 

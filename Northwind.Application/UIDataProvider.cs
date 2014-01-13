@@ -9,14 +9,20 @@ namespace Northwind.Application
     public interface IUIDataProvider
     {
         IList<Customer> GetCustomers();
+        Customer GetCustomer(string customerID);
     }
 
     public class UIDataProvider : IUIDataProvider
     {
-
+        NorthwindEntities _northWindEntities = new NorthwindEntities();
         public IList<Customer> GetCustomers()
         {
-            return new NorthwindEntities().Customers.ToList();
+            return _northWindEntities.Customers.ToList();
+        }
+
+        public Customer GetCustomer(string customerID)
+        {
+            return _northWindEntities.Customers.Single((c) => c.CustomerID == customerID);
         }
     }
 }

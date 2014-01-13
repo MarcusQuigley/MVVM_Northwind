@@ -24,5 +24,15 @@ namespace Northwind.UI.WPF
         {
             InitializeComponent();
          }
+
+        private MainWindowViewModel ViewModel
+        {
+            get { return (MainWindowViewModel)DataContext; }
+        }
+
+        private void Hyperlink_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.ShowCustomerDetails();
+        }
     }
 }
