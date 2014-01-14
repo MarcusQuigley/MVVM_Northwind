@@ -43,7 +43,7 @@ namespace Northwind.ViewModel
            _dataProvider = dataProvider;
 
            Tools = new ObservableCollection<ToolViewModel>();
-           ;
+  
         }
 
 
@@ -63,37 +63,33 @@ namespace Northwind.ViewModel
 
        public void ShowCustomerDetails()
        {
-           if (SelectedCustomerID == null)
+           if (string.IsNullOrEmpty(SelectedCustomerID))
                throw new ArgumentNullException("SelectedCustomerID");
 
-           CustomerDetailsViewModel customerDetailsVM = GetCustomerDetailsTool(SelectedCustomerID);
+           CustomerDetailsViewModel cusDetailsViewModel =
+               GetCustomerDetailsViewModel(SelectedCustomerID);
 
-           if (customerDetailsVM == null)
+           if (cusDetailsViewModel == null)
            {
-               customerDetailsVM = new CustomerDetailsViewModel(_dataProvider, SelectedCustomerID);
-               Tools.Add(customerDetailsVM);
+               cusDetailsViewModel = new CustomerDetailsViewModel(_dataProvider, SelectedCustomerID);
+               Tools.Add(cusDetailsViewModel);
            }
 
+           SetCurrentTool(cusDetailsViewModel);
+        }
 
-           SetCurrentTool(customerDetailsVM);
-       }
-
-       private CustomerDetailsViewModel GetCustomerDetailsTool(string customerID)
+       private CustomerDetailsViewModel GetCustomerDetailsViewModel(string customerID)
        {
            return Tools.OfType<CustomerDetailsViewModel>()
-               .FirstOrDefault((c) => c.Customer.CustomerID == customerID);
+               .FirstOrDefault(c => c.Customer.CustomerID == customerID);
        }
 
        private void SetCurrentTool(ToolViewModel currentTool)
        {
            ICollectionView view = CollectionViewSource.GetDefaultView(Tools);
            if (view != null)
-           {
                if (view.MoveCurrentTo(currentTool) != true)
-                   throw new InvalidOperationException("Current Tool cant be found");
-
-           }
-
+                   throw new InvalidOperationException("Current tool does not exist");
        }
 
 
