@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Northwind.Data;
+//using Northwind.Data;
+using Northwind.Application.CustomerService;
 using Northwind.Application;
 using System.Collections.ObjectModel;
 using System.Windows.Data;

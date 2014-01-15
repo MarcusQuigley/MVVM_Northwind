@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rhino.Mocks;
+//using Northwind.Data;
 using Northwind.Application;
-using Northwind.Data;
+using Northwind.Application.CustomerService;
 using System.Windows.Data;
 
 namespace Northwind.ViewModel.Tests

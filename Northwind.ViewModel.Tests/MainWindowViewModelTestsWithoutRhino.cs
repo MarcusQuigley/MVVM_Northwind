@@ -3,8 +3,9 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+//using Northwind.Data;
 using Northwind.Application;
-using Northwind.Data;
+using Northwind.Application.CustomerService;
 
 namespace Northwind.ViewModel.Tests
 {

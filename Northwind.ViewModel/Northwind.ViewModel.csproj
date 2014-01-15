@@ -37,6 +37,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
@@ -58,10 +59,6 @@
     <ProjectReference Include="..\Northwind.Application\Northwind.Application.csproj">
       <Project>{67D11ED1-BC0D-4BCA-80CE-C66B709CF14D}</Project>
       <Name>Northwind.Application</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Northwind.Data\Northwind.Data.csproj">
-      <Project>{A89A1252-3F50-4F7E-ACBC-DAA46F4F7BFF}</Project>
-      <Name>Northwind.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
