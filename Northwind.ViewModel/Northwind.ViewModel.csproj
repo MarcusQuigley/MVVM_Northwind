@@ -60,6 +60,10 @@
       <Project>{67D11ED1-BC0D-4BCA-80CE-C66B709CF14D}</Project>
       <Name>Northwind.Application</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Northwind.Model\Northwind.Model.csproj">
+      <Project>{C3B3A884-2957-492B-9B98-13E0ED765F00}</Project>
+      <Name>Northwind.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

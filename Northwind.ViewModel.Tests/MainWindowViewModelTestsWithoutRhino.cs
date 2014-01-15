@@ -5,7 +5,8 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 //using Northwind.Data;
 using Northwind.Application;
-using Northwind.Application.CustomerService;
+using Northwind.Model;
+//using Northwind.Application.CustomerService;
 
 namespace Northwind.ViewModel.Tests
 {

@@ -6,7 +6,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rhino.Mocks;
 //using Northwind.Data;
 using Northwind.Application;
-using Northwind.Application.CustomerService;
+using Northwind.Model;
+//using Northwind.Application.CustomerService;
 using System.Windows.Data;
 
 namespace Northwind.ViewModel.Tests

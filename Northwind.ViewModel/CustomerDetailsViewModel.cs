@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Northwind.Application;
+using Northwind.Model;
 //using Northwind.Data;
-using Northwind.Application.CustomerService;
+//using Northwind.Application.CustomerService;
 
 namespace Northwind.ViewModel
 {
