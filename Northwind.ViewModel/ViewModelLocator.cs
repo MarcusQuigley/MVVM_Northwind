@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Northwind.Application;
+using Northwind.Application.CustomerService;
 
 namespace Northwind.ViewModel
 {
@@ -20,7 +21,9 @@ namespace Northwind.ViewModel
             get
             {
                 return _mainWindowViewModel ?? (
-                 _mainWindowViewModel = new MainWindowViewModel(new UIDataProvider())
+                 _mainWindowViewModel = new MainWindowViewModel(
+                     new UIDataProvider(
+                         new CustomerServiceClient()))
                  );
             }
         }

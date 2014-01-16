@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Service", "..\Nor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Model", "..\Northwind.Model\Northwind.Model.csproj", "{C3B3A884-2957-492B-9B98-13E0ED765F00}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{700B9E0D-C431-4D11-9E0C-D6EFDACC8F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Application.Tests", "..\Northwind.Application.Tests\Northwind.Application.Tests.csproj", "{67AB8860-9397-4C73-8EE1-5C50A279C816}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Northwind.MVVM.vsmdi
@@ -105,8 +109,22 @@ Global
 		{C3B3A884-2957-492B-9B98-13E0ED765F00}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{C3B3A884-2957-492B-9B98-13E0ED765F00}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{C3B3A884-2957-492B-9B98-13E0ED765F00}.Release|x86.ActiveCfg = Release|Any CPU
+		{67AB8860-9397-4C73-8EE1-5C50A279C816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AB8860-9397-4C73-8EE1-5C50A279C816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AB8860-9397-4C73-8EE1-5C50A279C816}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{67AB8860-9397-4C73-8EE1-5C50A279C816}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{67AB8860-9397-4C73-8EE1-5C50A279C816}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{67AB8860-9397-4C73-8EE1-5C50A279C816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AB8860-9397-4C73-8EE1-5C50A279C816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67AB8860-9397-4C73-8EE1-5C50A279C816}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{67AB8860-9397-4C73-8EE1-5C50A279C816}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{67AB8860-9397-4C73-8EE1-5C50A279C816}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54F9B116-E5B5-405B-9627-9B7E0E203744} = {700B9E0D-C431-4D11-9E0C-D6EFDACC8F44}
+		{67AB8860-9397-4C73-8EE1-5C50A279C816} = {700B9E0D-C431-4D11-9E0C-D6EFDACC8F44}
 	EndGlobalSection
 EndGlobal
